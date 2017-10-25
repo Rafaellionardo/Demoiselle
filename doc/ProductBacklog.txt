@@ -1,4 +1,4 @@
-Product backlog
+﻿Product backlog
 
 R1 - Desenvolver Sistemas de Autenticação. 
 
@@ -25,11 +25,11 @@ distancia(localA, localB, aux)
 
 
 R4 - CRUD aeronaves - somente AV
-O sistema deverá permitir registrar as aeronaves disponiveis por empresa. 
+O sistema deverá permitir cadastros, atualizações, exclusões e consultas das aeronaves disponiveis por empresa ou geral. 
 - capacidade de passageiros
 - assentos (conforto, convencional, saÃ­das de emergencia, etc)
 BD
-aeronave(id, modelo, assentos, capacidade, empresa)
+aeronave(id, modelo, quantidade_assentos, tempo_de_voo, fk_empresa)
 empresa(id, nome, nome_fantasia, cnpj)
 
 R5- CRUD de Rotas de avião
